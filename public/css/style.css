@@ -10,8 +10,12 @@ h1 {
 	margin: 0;
 	font-weight: 700;
 }
+h2, h3 {
+	font-weight: 700;
+	margin-top: 48px;
+}
 a {
-	color: #f0f;
+	color: #BD93F9;
 	font-weight: 400;
 	text-decoration: none;
 }
@@ -23,9 +27,21 @@ p {
 	margin: 24px 0 0;
 	line-height: 1.75;
 }
+ul {
+	list-style-position: inside;
+	padding: 0;
+	margin: 24px 0 0;
+}
+li ul {
+	padding-left: 20px;
+	margin-top: 0;
+}
+li {
+	line-height: 1.75;
+}
 ::selection {
-	background: #000;
-	color: #fff;
+	background: #44475A;
+	color: #F8F8F2;
 }
 
 .container {
@@ -51,7 +67,7 @@ p {
 	font-weight: 700;
 }
 .site-description {
-	margin-bottom: 48px;
+	margin-bottom: 46px;
 }
 .menu {
 	list-style-type: none;
@@ -59,27 +75,30 @@ p {
 	padding: 0;
 }
 .menu li {
-	margin: 0 0 8px;
+	margin: 0 0 4px;
 	padding: 0;
 }
 .menu li a {
 	color: #000;
 }
 .copyright {
-	margin-top: 40px;
+	margin-top: 42px;
 	font-size: 14px;
-	margin-bottom: 24px;
+	margin-bottom: 40px;
 }
 
 .main {
 	width: calc(100% - 352px);
 	display: flex;
 	flex-direction: column;
-	padding: 96px 32px 0 64px;
+	padding: 96px 32px 40px 64px;
 	order: 2;
 }
 
 @media screen and (max-width: 1000px) {
+	body {
+		font-size: 1.5em;
+	}
 	.sidebar {
 		width: 100%;
 		order: 2;
@@ -91,6 +110,17 @@ p {
 	.main {
 		width: 100%;
 		order: 1;
-		padding: 48px 32px 0;
+		padding: 48px 32px 24px;
 	}
 }
+
+/* dracula */
+body.dracula {
+	background: #282A36;
+	color: #F8F8F2;
+}
+.dracula .site-title a,
+.dracula .menu li a {
+	color: #F8F8F2;
+}
+

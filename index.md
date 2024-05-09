@@ -5,10 +5,26 @@ title: Home
 
 # About
 
-Thermostat Controller is an iPhone app that lets you view the data from and control your Venstar thermostat locally.
+**Thermostat Controller** is an iPhone app that lets you view the data from and control your **Venstar** thermostat locally.
 
-You can view the current temperature, set temperature, humidity, fan state and runtimes, including a readout of all the runtimes from the past week as well as the average daily runtime for the past week.
+## Data you can view
 
-You can also control your thermostat, with the ability to increase/decrease the set temperature, change the mode (heating, cooling, auto) and change the fan mode (always on or auto).
+* Current temperature
+* Set temperature
+* Humidity
+* Mode
+* Fan state
+* Runtimes
+  * Today's runtime
+  * Runtime for each day of the past week
+  * The average daily runtime for the past week
 
-Optional push notifications are available to let you know when the thermostat state changes from idle to active (e.g. heating or cooling) or vice versa. These push notifications require the companion app to be running on a computer as well as an API key. More info [here](https://www.studiojq.io/thermostat-controller/).
+## What you can control
+
+* Increase/decrease the set temperature
+* Change the mode (heating, cooling, auto)
+* Change the fan mode (always on or auto)
+
+## Push notifications
+
+Optional push notifications are available to let you know when the thermostat state changes from idle to active (e.g. heating or cooling) or vice versa. These push notifications require the companion app to be running on a computer as well as an API key. More info [here]({{ 'push' | relative_url }}).
