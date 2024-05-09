@@ -1,0 +1,12 @@
+title: Thermostat Controller
+description: iPhone app to view and control your Venstar thermostat.
+url: https://thermostat-controller.studiojq.io/
+baseurl: /
+author:
+  name: STUDIOJQ
+  url: https://github.com/thestudiojq
+github:
+  repo: https://github.com/thestudiojq/thermostat-controller
+version: 2.1.0
+
+markdown: kramdown

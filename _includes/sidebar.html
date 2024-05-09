@@ -1,0 +1,20 @@
+<div class="sidebar">
+	<div class="site-title"><a href="{{ site.baseurl }}">{{ site.title }}</a></div>
+	<div class="site-description">
+		<p>{{ site.description }}</p>
+	</div>
+	<ul class="menu">
+		<li><a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}">Home &#8594</a></li>
+		<li><a href="#">Get &#8594</a></li>
+		{% assign pages_list = site.pages %}
+		{% for node in pages_list %}
+			{% if node.title != null %}
+				{% if node.layout == "page" %}
+					<li><a class="{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">{{ node.title }} &#8594</a></li>
+				{% endif %}
+			{% endif %}
+		{% endfor %}
+		<li><a href="{{ site.github.repo }}/issues">Support &#8594</a></li>
+	</ul>
+	<div class="copyright">(C) {{ site.time | date: '%Y' }} {{ site.author.name }}</div>
+</div>

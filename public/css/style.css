@@ -1,0 +1,96 @@
+body {
+	font-family: 'Lekton', monospace;
+	font-size: 18px;
+	background: #fff;
+	color: #000;
+	font-weight: 400;
+}
+h1 {
+	font-size: 2em;
+	margin: 0;
+	font-weight: 700;
+}
+a {
+	color: #f0f;
+	font-weight: 400;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+
+p {
+	margin: 24px 0 0;
+	line-height: 1.75;
+}
+::selection {
+	background: #000;
+	color: #fff;
+}
+
+.container {
+	display: flex;
+	width: 100%;
+	flex-wrap: wrap;
+}
+
+.sidebar {
+	width: 352px;
+	display: flex;
+	flex-direction: column;
+	padding: 96px 32px 0;
+	order: 1;
+}
+.site-title {
+	margin-bottom: 4px;
+	font-size: 2em;
+	line-height: 1.1;
+}
+.site-title a {
+	color: #000;
+	font-weight: 700;
+}
+.site-description {
+	margin-bottom: 48px;
+}
+.menu {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+.menu li {
+	margin: 0 0 8px;
+	padding: 0;
+}
+.menu li a {
+	color: #000;
+}
+.copyright {
+	margin-top: 40px;
+	font-size: 14px;
+	margin-bottom: 24px;
+}
+
+.main {
+	width: calc(100% - 352px);
+	display: flex;
+	flex-direction: column;
+	padding: 96px 32px 0 64px;
+	order: 2;
+}
+
+@media screen and (max-width: 1000px) {
+	.sidebar {
+		width: 100%;
+		order: 2;
+		text-align: center;
+		padding: 48px 0 0;
+		margin: 48px 32px 0;
+		border-top: 1px solid #ddd;
+	}
+	.main {
+		width: 100%;
+		order: 1;
+		padding: 48px 32px 0;
+	}
+}
