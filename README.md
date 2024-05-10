@@ -1,6 +1,6 @@
 # Thermostat Controller
 
-Thermostat Controller is an iphone app that lets you view data from and control your Venstar thermostat locally. 
+Thermostat Controller is an iPhone app that lets you view data from and control your Venstar thermostat locally. 
 
 It's available in the App Store here: 
 

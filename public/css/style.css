@@ -96,9 +96,6 @@ li {
 }
 
 @media screen and (max-width: 1000px) {
-	body {
-		font-size: 1.5em;
-	}
 	.sidebar {
 		width: 100%;
 		order: 2;
