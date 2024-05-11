@@ -12,7 +12,7 @@ Using the app is also pretty straightforward. After you've added in the IP addre
 
 ## What's this I see?
 
-In the area under the thermostat name, you will see four pieces of data. The top left shows the current temperature from the thermostat. The top right shows the humidity level. The bottom left shows the fan state. When it's set to always on, it will just show **ON**. When it's set to auto, it will show **AUTO** and the current state (**off** or **on**) in brackets. The bottom right shows the runtime for today.
+In the area under the thermostat name, you will see four pieces of data. The top left shows the current temperature from the thermostat. The top right shows the humidity level. The bottom left shows the fan state. When it's set to always on, it will just show **ON**. When it's set to auto, it will show **AUTO** and the current state (**off** or **on**). The bottom right shows the runtime for today.
 
 The temperature inside the circle is the current set temperature of the thermostat. If you have your thermostat on auto mode, then you can see the current set heat temp by pressing the **H** button and the current set cool temp by pressing the **C** button.
 
