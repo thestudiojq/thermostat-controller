@@ -57,12 +57,21 @@ li {
 	padding: 96px 32px 0;
 	order: 1;
 }
-.site-title {
+.logo-site-title {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
 	margin-bottom: 4px;
+}
+.sidebar-logo {
+	width: 48px;
+	height: auto;
+	border-radius: 16px;
+}
+.site-title {
+	width: calc(100% - 64px);
 	font-size: 2em;
 	line-height: 1.1;
-}
-.site-title a {
 	color: #000;
 	font-weight: 700;
 }
@@ -94,6 +103,38 @@ li {
 	padding: 96px 32px 40px 64px;
 	order: 2;
 }
+.logo-menu-button {
+	display: none;
+	width: 100%;
+	justify-content: space-between;
+	margin-bottom: 48px;
+}
+.logo {
+	width: 48px;
+	height: auto;
+	border-radius: 16px;
+}
+.menu-button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 48px;
+	width: 80px;
+	border: 1px solid #ddd;
+	border-radius: 16px;
+	cursor: pointer;
+	text-decoration: none;
+	color: #000;
+}
+.menu-button:hover {
+	text-decoration: none;
+	color: #000;
+}
+.content {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
 
 @media screen and (max-width: 1000px) {
 	.sidebar {
@@ -104,11 +145,20 @@ li {
 		margin: 48px 32px 0;
 		border-top: 1px solid #ddd;
 	}
+	.sidebar-logo {
+		display: none;
+	}
+	.site-title {
+		width: 100%;
+	}
 	.main {
 		width: 100%;
 		order: 1;
 		padding: 48px 32px 24px;
 	}
+	.logo-menu-button {
+		display: flex;
+	}	
 }
 
 /* dracula */

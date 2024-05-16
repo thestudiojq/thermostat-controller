@@ -1,5 +1,8 @@
 <div class="sidebar">
-	<div class="site-title"><a href="{{ 'index' | relative_url }}">{{ site.title }}</a></div>
+	<div class="logo-site-title">
+		<a href="{{ 'index' | relative_url }}"><img class="sidebar-logo" src="{{ 'public/img/icon.png' | relative_url }}" alt="Thermostat Controller logo"></a>
+		<a class="site-title" href="{{ 'index' | relative_url }}" id="site-title-link">{{ site.title }}</a>
+	</div>
 	<div class="site-description">
 		<p>{{ site.description }}</p>
 	</div>

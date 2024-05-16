@@ -5,7 +5,13 @@
 		<div class="container">
 			{% include sidebar.html %}
 			<div class="main">
-				{{ content }}
+				<div class="logo-menu-button">
+					<a href="{{ 'index' | relative_url }}"><img class="logo" src="{{ 'public/img/icon.png' | relative_url }}" alt="Thermostat Controller logo"></a>
+					<a class="menu-button" href="#site-title-link">Menu</a>
+				</div>
+				<div class="content">
+					{{ content }}
+				</div>
 			</div>
 		</div>
 	</body>

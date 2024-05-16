@@ -8,7 +8,7 @@ permalink: using
 
 Using the app is also pretty straightforward. After you've added in the IP address [on the settings page]({{ 'config' | relative_url }}), you'll then be able to read your thermostat data and control it.
 
-*Note: Your Venstar thermostat has a local API. This app is interacting with this local API. Meaning, if your phone isn't connected to the same Wi-Fi network as your thermostat, you won't be able to read from it or control it. (Unless you use DDNS, but that is an avanced topic not covered here and not encouraged unless you're experienced/comfortable implementing/configuring it.)*
+*Note: Your Venstar thermostat has a local API. This app is interacting with this local API. Meaning, if your phone isn't connected to the same Wi-Fi network as your thermostat, you won't be able to read from it or control it. (Unless you use DDNS, but that is an advanced topic not covered here and not encouraged unless you're experienced/comfortable implementing/configuring it.)*
 
 ## What's this I see?
 
