@@ -7,7 +7,7 @@ title: Thermostat Controller iPhone app for Venstar
 
 **Thermostat Controller** is an iPhone app that lets you view the data from and control your **Venstar** thermostat locally.
 
-*Note: Locally means while your phone is on the same network as your thermostat. If your phone is not connected to the same network as your thermostat, you will not be able to see/control thermostat data. However, you will still get [push notifications]({{ 'push' | relative_url }}) if those are enabled.*
+*Note: Your Venstar thermostat has a local API. This app is interacting with this local API. Meaning, if your phone isn't connected to the same Wi-Fi network as your thermostat, you won't be able to read from it or control it. However, you will still get [push notifications]({{ 'push' | relative_url }}) if those are enabled.*
 
 ## Data you can view
 
