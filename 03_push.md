@@ -32,6 +32,8 @@ In order to connect the phone app to the computer app, you'll need to use an API
 
 For info on how to add this key to the iPhone app, see the [Config]({{ 'config' | relative_url }}) section.
 
+You will also need to add this same API key to the [companion app](#companion-app).
+
 For info on how we store and use this key, see the [Security]({{ 'security' | relative_url }}) section.
 
 ## Disable push notifications
