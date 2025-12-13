@@ -9,6 +9,8 @@ title: Thermostat Controller iPhone app for Venstar
 
 *Note: Your Venstar thermostat has a local API. This app is interacting with this local API. Meaning, if your phone isn't connected to the same Wi-Fi network as your thermostat, you won't be able to read from it or control it. However, you will still get [push notifications]({{ 'push' | relative_url }}) if those are enabled.*
 
+*Note 2: The latest update (1.2.0) introduces a remote mode, which lets you view the data from your thermostat while not on your Wi-Fi network. This does not work by default and requires that you be running the companion app on a computer as well as an API key. This also does not allow you to control your thermostat remotely, but only view the data. More info [here]({{ 'remote' | relative_url }}).*
+
 ## Data you can view
 
 * Current temperature

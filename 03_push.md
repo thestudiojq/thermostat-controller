@@ -26,7 +26,7 @@ This companion app, as well as instructions for how to install, configure and ru
 
 ## API key
 
-In order to connect the phone app to the computer app, you'll need to use an API key. You must generate the API key yourself, and it must be in valid **UUIDv4** format. If it isn't in this format, it will be rejected and you won't receive push notifications. There are many places that you can generate a UUIDv4 key. For example:
+In order to connect the phone app to the computer app, you'll need to use an API key. You must generate the API key yourself, and it must be in valid **UUIDv4** format. If it isn't in this format, it will be rejected and you won't receive push notifications. (The app will tell you if the key you entered is not in the correct format.) There are many places that you can generate a UUIDv4 key. For example:
 
 [https://generate-uuid.com](https://generate-uuid.com)
 
